@@ -1,0 +1,20 @@
+###############################################################################
+#									      #
+#	code book of the "getting and cleaning data" course project	      #
+#									      #
+#									      #
+###############################################################################
+
+
+
+
+The variables of the tidy data set  named "data" in the script are :
+- Subject_ID, that contains the variable found in subject_text.txt and subject_train.txt files -> num
+- all the features from the X_Train.txt and X_test.txt files, describing in the features.txt files
+- activities, that contains the name of the activities people are doing during the test -> factor
+
+the result of the script (answer to question 5 of the project) is a data frame that contains :
+-the mean
+-the standard deviation
+of all the measurments (aka, for all the features coming from X_Train.txt and X_test.txt files)
+
